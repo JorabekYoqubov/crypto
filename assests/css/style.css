@@ -1,0 +1,157 @@
+/*font link*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #000;
+}
+a {
+    color: #fff;
+}
+li {
+    margin: 10px;
+}
+/*navbar start*/
+
+main header nav .navbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+main header nav .navbar_container .navbar_ul_container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #302f2f;
+    border-radius: 30px;
+}
+main header nav .navbar_container .navbar_button_container ul {
+    display: flex;
+    align-items: center;
+}
+main header nav .navbar_container .navbar_logo_container {
+    margin-right: 220px;
+}
+main header nav .navbar_container .navbar_button_container {
+    margin-left: 220px;
+}
+main header nav .navbar_container .navbar_ul_container {
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 10px;
+}
+main header nav .navbar_container .navbar_ul_container ul li {
+    margin: 15px;
+}
+main header nav .navbar_container .navbar_ul_container ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+main header nav .navbar_container .navbar_logo_container a h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+main header nav .navbar_container .navbar_button_container ul li:nth-child(2) {
+    background-color: rgb(240, 100, 18);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+main header nav .navbar_container .navbar_button_container ul li:last-child {
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: rgb(240, 100, 18);
+} 
+
+/*navbar end*/
+
+/*text section start*/
+.text_section .text_container .text_box .text_heading h1 {
+    color: #fff;
+    font-size: 60px;
+}
+.text_section .text_container .text_box .text_heading h1 span {
+    color: rgb(240, 100, 18);
+}
+
+.text_section .text_container .text_box .row_1 .text_paragraph p {
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 20px;
+    color: #dfd9d9;
+}
+.text_section .text_container {
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.text_section .text_container .text_box {
+    margin: 0px 170px;
+}
+.text_section .text_container .text_box .row_2 .text_mini_container .text_mini_box i {
+    color: #b6afaf;
+    font-size: 30px!important;
+}
+.text_section .text_container .text_box .row_2 .text_mini_container .text_mini_box h3 {
+    color: #b6afaf;
+}
+.text_section .text_container .text_box .row_2 .text_mini_container .text_mini_box p {
+    color: #dfd9d9;
+}
+.text_section .text_container .text_box .row_2 .text_mini_container {
+    display: flex;
+    align-items: center;
+}
+.text_section .text_container .text_box .row_2 .text_mini_container .text_mini_box {
+    margin: 5px;
+}
+.text_section .text_container .text_box .row_3 {
+    margin-top: 20px;
+}
+.text_section .text_container .text_box .row_3 .text_button {
+    border: 1px solid #fff;
+    width: 290px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.text_section .text_container .text_box .row_3 .text_button a span i{
+background-color: rgb(240, 100, 18); 
+padding: 10px 10px;
+border-radius: 50%;
+margin-left: 50px;
+}
+.text_section .text_container .text_box .row_3 .text_button a {
+    margin-left: 10px;
+}
+/*text section end*/
+
+/*text section start*/
+
+.image_section {
+    position: relative;
+}
+.image_section .image_container {
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?w=1380&t=st=1694665608~exp=1694666208~hmac=92c7dbe68124cb318ad11ea35ca08c8a83f11beaaf7b6ef9a3e2f97f0a9077e8);
+}
+.image_section .image_container .image_heading h1 {
+    color: rgb(240, 100, 18);
+    margin-left: 700px;
+    font-size: 150px;
+    padding-top: 120px;
+    position: absolute;
+}
+/* image section end*/
